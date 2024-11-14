@@ -30,17 +30,7 @@
     background-color: green;
     left: 70px;
 }
-/* calculator styling */
-.title{
-    font-size: 15px;
-    width: 100%;
-    text-align: center;
-    background-color: transparent;
-    margin-top: 0;
-    color: #3b3bfc;
-    text-transform: uppercase;
-    font-family: 'Martian Mono', monospace;
-}
+
 /* screen container styling */
 .inputCont{
     width: 100%;
