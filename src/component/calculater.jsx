@@ -21,7 +21,7 @@ const Calculator = ({ calculate, handleBack, handleClear, handleClick, result, h
 
             {/* Some keypad buttons */}
             <div  className={styles.keypad}>
-                <button onClick={handleClear}>AC</button>
+                <button onClick={handleClear}>C</button>
                 <button onClick={handleMinus}>+/-</button>
                 <button onClick={handleBack}><img src={backpng} alt="back"/></button>
                 <button className={styles.operator} value="/" onClick={handleClick}>&divide;</button>
