@@ -14,11 +14,6 @@ const Calculator = ({ calculate, handleBack, handleClear, handleClick, result, h
             <span className={styles.toggle}></span>
             <span className={styles.toggle}></span>
 
-            {/*calculator Heading */}
-            <div className={styles.title}>
-                <h1>Calculator</h1>
-            </div>
-
             {/* screen */}
             <div className={styles.inputCont}>
                 <input type="text" value={result} />
